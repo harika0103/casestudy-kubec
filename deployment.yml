@@ -17,3 +17,5 @@ spec:
         image: harika0103/web234
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: regcred
